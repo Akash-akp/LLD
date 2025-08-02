@@ -6,7 +6,7 @@ import edu.lldpractice.commanddesignpattern.concretecommand.SaveCommand;
 import edu.lldpractice.commanddesignpattern.invoker.Menu;
 import edu.lldpractice.commanddesignpattern.reciever.Document;
 
-public class Main {
+public class DocumentMain {
     public static void main(String[] args) {
         Document document = new Document();
         ICommand openCommand = new OpenCommand(document);
