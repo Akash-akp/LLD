@@ -7,6 +7,10 @@ public abstract class OrderHandler {
         this.nextHandler = nextHandler;
     }
 
+    public void setNextHandler(OrderHandler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
     public abstract void processOrder();
 
 }
